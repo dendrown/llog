@@ -1,0 +1,13 @@
+{application, llog,
+ [{description, "A Lager Logger"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {maintainers, []},
+  {licenses, ["BSD 3-clause"]},
+  {links, []}
+ ]}.

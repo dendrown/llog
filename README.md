@@ -1,7 +1,7 @@
 llog
 =====
 
-An OTP application
+A wrapper for lager.
 
 Build
 -----

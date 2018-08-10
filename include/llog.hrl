@@ -11,6 +11,8 @@
 -ifndef(_llog_included).
 -define(_llog_included, ack).
 
+-compile([{parse_transform, lager_transform}]).
+
 % Shortcuts for standard lager levels (and RFC-3164/syslog keywords)
 -define(debug    (Fmt, Args), llog:log(debug,     ?MODULE, Fmt, Args)).
 -define(info     (Fmt, Args), llog:log(info,      ?MODULE, Fmt, Args)).

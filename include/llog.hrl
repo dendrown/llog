@@ -32,4 +32,6 @@
 -define(alert    (Fmt), llog:log(alert,     ?MODULE, Fmt)).
 -define(emergency(Fmt), llog:log(emergency, ?MODULE, Fmt)).
 
+-define(llog(Lvl, Fmt),       llog:log(Lvl, ?MODULE, Fmt)).
+-define(llog(Lvl, Fmt, Args), llog:log(Lvl, ?MODULE, Fmt, Args)).
 -endif.

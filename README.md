@@ -33,7 +33,7 @@ start(_StartType, _StartArgs) ->
     llog:start(),
     ?notice("Let's read ~B lines of poetry... ", [42]),
 
-    % Continue application startup
+    % Continue your application startup code as normal
     vogon_sup:start_link().
 
 

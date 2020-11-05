@@ -7,7 +7,7 @@
 %%
 %%      REF: https://github.com/basho/lager
 %%
-%% @copyright 2018 Dennis Drown and Ostrich Ideas
+%% @copyright 2018-2020 Dennis Drown and Ostrich Ideas
 %% @end
 %%%-------------------------------------------------------------------
 -module(llog).

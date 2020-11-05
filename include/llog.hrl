@@ -5,7 +5,7 @@
 %%
 %% @doc Definitions for the Lager Logger
 %%
-%% @copyright 2018 Dennis Drown and Ostrich Ideas
+%% @copyright 2018-2020 Dennis Drown and Ostrich Ideas
 %% @end
 %%%-------------------------------------------------------------------
 -ifndef(_llog_included).

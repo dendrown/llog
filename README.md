@@ -10,7 +10,7 @@ Add `llog` to the dependencies in your `rebar.config`.
 
 ```erlang
     {deps, [% {...},
-            {llog, {git, "git://github.com/dendrown/llog.git", {tag, "v0.1.4"}}}
+            {llog, {git, "git://github.com/dendrown/llog.git", {tag, "v0.2.0"}}}
     ]}.
 
 ```
